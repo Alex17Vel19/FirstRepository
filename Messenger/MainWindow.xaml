@@ -1,0 +1,57 @@
+﻿<Window x:Class="aaaaa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aaaaa"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" RenderTransformOrigin="0.532,0.529" Background="SlateGray">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="171" />
+                <RowDefinition Height="149"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <TextBox x:Name="Person" HorizontalAlignment="Left" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="142" Height="35" Grid.Row="1" Margin="22,0,0,0" TextChanged="Person_TextChanged_1"/>
+            <Image HorizontalAlignment="Left" Height="121" VerticalAlignment="Center" Width="126" Source="/6290e2e8-d66c-4831-a9ae-504473fd1fc5.png" Margin="40,0,0,0"/>
+            <Label Content="Введите Ваше имя" HorizontalAlignment="Center" Margin="0,32,0,0" Grid.Row="1" VerticalAlignment="Top" Width="155" Height="29"/>
+            <ComboBox x:Name="COM" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="141" Margin="23,28,0,0" SelectionChanged="COM_SelectionChanged"/>
+        </Grid>
+
+        <Grid Grid.Column="1" Background="#FF2E5148">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="70"/>
+            </Grid.RowDefinitions>
+            <TextBox x:Name="TextOut" Foreground="White" Grid.Row="1" Background="SlateGray" HorizontalAlignment="Left" Margin="0,300,0,0" Grid.RowSpan="2" Width="497" BorderBrush="SlateGray" >
+                <TextBox.SelectionBrush>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="SlateGray" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.SelectionBrush>
+            </TextBox>
+            <Grid Grid.Row="1">
+                <TextBox x:Name="TextIn" Grid.Column="0" Foreground="White" Background="#FF2E5148" Margin="0,-1,0,0" BorderBrush="#FF2E5148" />
+            </Grid>
+            <Button Content=" " HorizontalAlignment="Left" Margin="497,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="70" Width="103" Click="Button_Click_2">
+                <Button.BorderBrush>
+                    <ImageBrush ImageSource="/значок-отправки-сообщения-поделиться-подписью-icon-почта-сообщение-159844316.jpg"/>
+                </Button.BorderBrush>
+                <Button.Background>
+                    <ImageBrush ImageSource="/значок-отправки-сообщения-поделиться-подписью-icon-почта-сообщение-159844316.jpg"/>
+                </Button.Background>
+                <Button.Foreground>
+                    <ImageBrush/>
+                </Button.Foreground>
+            </Button>
+        </Grid>
+        <Label Grid.Column="0" Content="Label" HorizontalAlignment="Left" Margin="262,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.343,5.741"/>
+    </Grid>
+</Window>
