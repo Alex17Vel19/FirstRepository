@@ -1,0 +1,16 @@
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\bin\Debug\aaaaa.exe.config
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\bin\Debug\aaaaa.exe
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\bin\Debug\aaaaa.pdb
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.csproj.AssemblyReference.cache
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.csproj.SuggestedBindingRedirects.cache
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\MainWindow.g.cs
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\App.g.cs
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa_MarkupCompile.cache
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa_MarkupCompile.lref
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.g.resources
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.Properties.Resources.resources
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.csproj.GenerateResource.cache
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.csproj.CoreCompileInputs.cache
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.exe
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.pdb
+C:\Users\AdminAlex\source\repos\aaaaa\aaaaa\obj\Debug\MainWindow.baml
